@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>spirograph</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<div id="wrapper">
+		<canvas width="600" height="600"></canvas>
+		<div id="container">
+			<div class="rangeDiv">
+				<h4>R</h4>
+				<input id="R" type="range" min="1" max="300" step="1" value="100"> 
+			</div>
+			<div class="rangeDiv">
+				<h4>r</h4>
+				<input id="r1" type="range" min="1" max="300" step="1" value="90">
+			</div>
+			<div class="rangeDiv">
+				<h4>d</h4> 
+				<input id="d" type="range" min="1" max="200" step="1" value="80">
+			</div>
+			<div class="rangeDiv">
+				<h4>speed</h4> 
+				<span><sub>max</sub></span><span><sub>min</sub></span>
+				<input id="speed" type="range" min="1" max="20" step="1" value="2">
+			</div>
+			<br>
+			<input id="button" type="button" name="go" value="START"> 
+			<br>
+			<input id="button2" type="button" name="go" value="STOP"> 
+			<br>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
